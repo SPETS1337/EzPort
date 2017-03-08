@@ -1,0 +1,76 @@
+body, html{
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	padding-top: 15px;
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #C75C5C;
+}
+
+::selection {
+	color: #fff;
+	background-color: #C75C5C;
+} 
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+::-webkit-scrollbar-track {
+    width:0px;
+    background-color: #F2F2F2;
+    border-left: 1px solid #DEDEDE;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border-left: 1px solid #DEDEDE;
+}
+
+#credits{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+
+.portfolioItem{
+	transition: opacity 400ms;
+	width: 350px;
+	height: 197px;
+	margin-bottom: 30px;
+}
+
+.portfolioItem:hover{
+	opacity: 0.6;
+}
+
+@media only screen and (max-width : 1200px) {
+    .portfolioItem{
+		transition: opacity 400ms;
+		width: 290px;
+		height: 147px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width : 979px) {
+    .portfolioItem{
+		transition: opacity 400ms;
+		width: 330px;
+		height: 167px;
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+    .portfolioItem{
+		transition: opacity 400ms;
+		width: 270px;
+		height: 137px;
+		margin-bottom: 30px;
+	}
+}
